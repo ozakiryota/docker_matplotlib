@@ -1,7 +1,7 @@
 ########## Pull ##########
 FROM ubuntu:20.04
 ########## Matplotlib ##########
-## no interactive
+## non-interactive
 ENV DEBIAN_FRONTEND=noninteractive
 ## install
 RUN apt-get update && \
